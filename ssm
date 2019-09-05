@@ -55,7 +55,7 @@ list () {
 }
 
 start () {
-    printf "Connected to $1 ..."
+    printf "Connecting to $1 ..."
     aws ssm \
         start-session \
         --target $1
